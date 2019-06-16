@@ -1,0 +1,21 @@
+.Toolbar {
+    height: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+    z-index: 100;
+    background-color:white;
+}
+.ToggleButton{
+    height :80%;
+
+}
+.Toolbar nav{
+    height: 100%;
+}
+.Logo{
+    height: 80%;
+}

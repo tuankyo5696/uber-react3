@@ -1,0 +1,57 @@
+.pageWork {
+    height: 80vh;
+    background-image: url(./../../../assets/img/bg-register.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >.coverWork {
+        background-color: #ffffffeb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        width: 90vw;
+        flex-direction: column;
+        >.howUberWork {
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            align-items: center;
+        }
+    }
+}
+
+
+.flex2{
+    flex:2;
+}
+/* How uber work? */
+p.howP {
+    font-size: 1.5rem;
+}
+.how.flex2 {
+    width: 90%;
+}
+p.Ondemand {
+    color: #0e0e0e;
+    text-align: justify;
+}
+/* 5 step */
+.fiveStep {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.titleBold {
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.elm {
+    font-family: 'Montserrat', sans-serif;
+    color: #989898;
+}

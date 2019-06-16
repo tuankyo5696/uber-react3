@@ -1,0 +1,57 @@
+.coverNum {
+    background-color: #ffffffe6;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+/* 4 digits */
+.numbers {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 300px;
+}
+.num {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    background: #fefbfb;
+}
+.Enter {
+    display: flex;
+    align-items: center;
+}
+.Form {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+.btnArr {
+    background: transparent;
+    border: none;
+}
+.ImgArr{
+    height: 65px;
+}
+.next {
+    border-color: gray;
+    border: 2px solid #c5c5c5;
+    display: flex;
+    padding: 10%;
+    font-size: 150%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.correct{
+    color: blueviolet;
+}
+
+.didnt {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}

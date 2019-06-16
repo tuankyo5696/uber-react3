@@ -1,0 +1,132 @@
+.coverRegister {
+    background-color: #fffffff2;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+
+    >.Form {
+        display: flex;
+        flex-direction: column;
+        >.moving { /*Get moving with Uber*/
+            color: #5d5b5b;
+            font-family: 'Noto Sans HK', sans-serif;
+            flex: 0.5;
+            margin: auto;
+            font-size: 1.1rem;
+        }
+        >.group-inline { /*Input Group*/
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin: 3px;
+            >.tel { /*+84*/
+                color: gray;
+                display: block;
+                margin: 8px  10px;
+                text-align: left;
+                font-family: 'Noto Sans HK', sans-serif;
+                font-size: 1rem;
+            }
+            >.coverFormInput{
+                box-shadow: 15px 15px 15px rgb(226, 226, 226);  
+            }
+        }
+        >.input-group-text {
+            display: flex;
+            padding-left: 5%;
+            justify-content: flex-start;
+            flex: 0.5;
+            >.item3{
+                flex-grow: 4;
+                align-items: center;
+                justify-content: center;
+                margin:auto;
+            }
+        }
+        >.rightArrow {
+            display: flex;
+            justify-content: flex-end;
+            >.button.nextBtn {
+                background-color: transparent;
+                border: none;
+                
+            }
+        }
+    }
+}
+
+#feedback {
+    color: red;
+}
+input[type="text"] {
+    font-size: 80%;
+}
+input.form-control {
+    border: none;
+   	width: 100%;
+    border: none;
+    background: #fffffffc;
+    height: 30px;
+}
+.rightArrImg {
+    width: 70px;
+}
+
+button.nextBtn {
+    background-color: transparent;
+    border: none;
+}
+.agree {
+    color: gray;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+}
+// input.form-control {
+//     border: none;
+//    	width: 100%;
+//     border: none;
+//     background: #fffffffc;
+//     height: 30px;
+// }
+
+
+
+@media (min-width: 500px){
+    .coverRegister{
+		width : 300px;
+	}
+	.moving {
+        font-size: 1.7rem;
+    }
+    input.form-control {
+        height: 40px;
+    }
+    input[type="text"] {
+        font-size: 1.2rem;
+    }
+    .tel {
+        font-size: 1.2rem;
+    }
+    .next{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 1000px){
+    .coverRegister{
+		width : 400px;
+    }
+    input.form-control {
+        height: 30px;
+    }
+}
+@media (min-width: 1300px){
+	section{
+		height: 90vh;
+    }
+    .coverRegister {
+        padding-top: 2%;
+    }
+}

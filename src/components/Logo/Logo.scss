@@ -1,0 +1,13 @@
+.Logo{
+    padding: 8px;
+   
+    >img{
+        height: 80%;
+    }
+}
+@media (min-width: 500px){
+    .Logo{
+        padding-left: 20px;
+    }
+}
+

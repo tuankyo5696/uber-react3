@@ -1,0 +1,92 @@
+
+.Pickup{
+    position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -55%);
+  -webkit-transform: translate(0, -55%);
+  -moz-transform: translate(0, -55%);
+  -ms-transform: translate(0, -55%);
+  -o-transform: translate(0, -55%);
+  @media screen and (min-width: 321px) {
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+  }
+    background-color: #eee;
+    width: 400px;
+    max-width: 80%;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+i{
+    margin-right: 10px;
+    vertical-align: center;
+}
+.place
+.location-search-input{
+    font-size: 1rem;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    width: 80%;
+    background-color: unset;
+}
+.placeContainer{
+    padding: 20px 0;
+    padding-left: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgb(180, 180, 180);
+    background-color: rgba($color: white, $alpha: 0.1);
+    input {
+        font-size: 1rem;
+        padding-left: 5px;
+        outline: none;
+        border: none;
+        width: 80%;
+        background-color: unset;
+    }
+    .Button{
+        border: none;
+        outline: none;
+        background-color: unset;
+        cursor: pointer;
+        padding: 10px;
+     
+        top: 10px;
+        right: 0;
+        text-align: right;
+        padding-right: 0;
+        font-size: 1rem;
+    }
+   
+}
+.suggestion{
+    display: flex;
+    padding: 5px 0 15px;
+    padding-left: 5px;
+    cursor: pointer;
+    i{
+        font-size: 1.1rem;
+    }
+    h6{
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0;
+    }
+    &:hover{
+        background-color: gray;
+    }
+}

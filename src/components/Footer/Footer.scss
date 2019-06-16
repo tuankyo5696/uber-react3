@@ -1,0 +1,35 @@
+.Footer{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >.group1{
+        >.text{
+            font-size: 0.5rem;
+            color: #404040;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+    }
+    >.group2{
+        display: flex;
+        >.imgLogo {
+            margin: auto;
+            padding-right: 4%;
+        }
+    }
+}
+
+@media (min-width: 500px){
+    .Footer{
+        >.group2{
+            margin: 1%;
+        }
+        >.group1{
+            >.text {
+                font-size: 0.7rem;
+            }
+        } 
+    }
+}
+

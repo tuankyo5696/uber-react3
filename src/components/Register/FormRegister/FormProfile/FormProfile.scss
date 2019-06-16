@@ -1,0 +1,107 @@
+
+.coverInfo {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+}
+
+.Form2 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.selectGender input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+
+.enter1 {
+    color: #343B4F;
+    display: flex;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.gender {
+    width: 4rem;
+}
+.groupGender {
+    flex: 1.5;
+}
+.selectGender{
+    padding-left: 2rem;
+}
+
+/* Profile Pic */
+img.profilePic {
+    width: 6rem;
+}
+
+/* Upload profile picture */
+.groupUpload {
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    flex: 2;
+}
+.imgPreview{
+ 
+  >img{
+    border-radius: 5px ;
+    width: 100px;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+    
+}
+.male {
+    background-image: url('./../../../../assets/img/male.png')
+}
+.female{
+    background-image: url('./../../../../assets/img/female.png')
+}
+/* Button Next */
+.selectGender input:active +.drinkcard-cc{opacity: .9;}
+.selectGender input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+.rightArrow1 {
+    align-self: flex-end;
+    flex:2;
+}
+.rightArrBtn{
+    border: none;
+    background: transparent;
+    flex:2;
+}

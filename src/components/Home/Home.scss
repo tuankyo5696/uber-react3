@@ -1,0 +1,119 @@
+
+.mainPage {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    >.bg-page {
+        background-image: url(./../../assets/img/bgImgSmall.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        flex: 1;
+    }
+    >.collum {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 45%;
+        flex: 1;
+        justify-content: space-around;
+        >.coverElm{
+            >.text1 {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1rem;
+            }
+            >.text2 {
+                font-size: 0.7rem;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+        >.row{
+            display: flex;
+            align-self: center;
+            >a{
+                >.register {
+                    border-radius: 8px;
+                    background: black;
+                    display: flex;
+                    align-items: center;
+                    width: 160px;
+                    justify-content: space-between;
+                    >.white{
+                        color: white;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media only screen and (min-width: 500px){
+    .mainPage{
+        >.bg-page {
+            background-image: url(./../../assets/img/bgImgLarge.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        >.collum{
+            >.coverElm{
+                >.text1 {
+                    font-size: 1.7rem;
+                }
+                >.text2 {
+                    font-size: 0.8rem;
+                }
+            }
+            >.row{
+                >.register {
+                    width: 250px;
+                    padding: 0 2rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 900px){
+    .mainPage{
+        >.bg-page {
+            background-size: contain;
+        }
+        >.collum{
+            >.coverElm {
+                width: 50%;
+                align-self: center;
+                >.text1 {
+                    font-size: 1.5rem;
+                }
+                >.text2 {
+                    font-size: 0.9rem;
+                }
+            }
+            >.row{
+                button.register {
+                    width: 270px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1300px){
+
+    .mainPage {
+        height: 70vh;
+        >.collum{
+            >.row{
+                button.register {
+                padding: 0 3rem;
+                }
+            }
+        }
+    }
+}
